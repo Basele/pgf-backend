@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "insights",
+  "info": {
+    "singularName": "insight",
+    "pluralName": "insights",
+    "displayName": "insight"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "blocks"
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "article_content": {
+      "type": "blocks"
+    },
+    "tags": {
+      "type": "string"
+    }
+  }
+}
