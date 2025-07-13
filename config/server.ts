@@ -3,5 +3,9 @@ export default ({ env }) => ({
   port: env.int('PORT', 1337),
   app: {
     keys: env.array('APP_KEYS'),
+  
+    console.log("APP_KEYS from env:", env('APP_KEYS'));
+
   },
 });
+
